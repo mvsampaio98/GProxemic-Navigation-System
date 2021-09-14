@@ -14,7 +14,11 @@ git clone https://github.com/mvsampaio98/GProxemic-Navigation-System
 
 Move the folder `~/GProxemicNavigation/pepper_nav` to `~/pepper_sim_ws/src/pepper_virtual`
 
-If having a trouble while adding the python package on mac follow this [repo](https://github.com/maverickjoy/pepper-nao_python_installation_mac).
+In the folder `~/pepper_sim_ws`, make a compilation:
+
+```bash
+catkin_make
+```
 
 ## Notes
 
