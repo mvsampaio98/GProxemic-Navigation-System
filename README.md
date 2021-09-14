@@ -20,9 +20,18 @@ In the folder `~/pepper_sim_ws`, make a compilation:
 catkin_make
 ```
 
-## Notes
+- **Make the Proxemic Navigation**
 
-- **Navigation and Mapping**
+First initialize the Pepper Robot and the Environment in Gazebo.
+
+```bash
+  // To open the Office
+roslaunch pepper_nav CPU_office.launch
+  // To open the Restaurant
+roslaunch pepper_nav restaurant.launch
+  // To open the Shopping
+roslaunch pepper_nav square.launch
+```
 
 <p align="center"><img src="https://raw.githubusercontent.com/maverickjoy/pepper-codes/master/docs/navigation-1.png" width="650"></p>
 
