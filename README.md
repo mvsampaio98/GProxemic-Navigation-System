@@ -33,6 +33,18 @@ roslaunch pepper_nav restaurant.launch
 roslaunch pepper_nav square.launch
 ```
 
+After that initialize the basic navigation packages of ROS.
+
+
+```bash
+  // To the Office
+roslaunch pepper_nav amcl_office.launch
+  // To the Restaurant
+roslaunch pepper_nav amcl_restaurant.launch
+  // To the Shopping
+roslaunch pepper_nav amcl_square.launch
+```
+
 <p align="center"><img src="https://raw.githubusercontent.com/maverickjoy/pepper-codes/master/docs/navigation-1.png" width="650"></p>
 
 ---
