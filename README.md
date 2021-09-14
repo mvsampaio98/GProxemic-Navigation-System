@@ -22,7 +22,7 @@ catkin_make
 
 - **Make the Proxemic Navigation**
 
-First initialize the Pepper Robot and the Environment in Gazebo.
+First, initialize the Pepper Robot and the Environment in Gazebo.
 
 ```bash
   // To open the Office
@@ -33,7 +33,7 @@ roslaunch pepper_nav restaurant.launch
 roslaunch pepper_nav square.launch
 ```
 
-After that initialize the basic navigation packages of ROS.
+After that, initialize the basic navigation packages of ROS.
 
 
 ```bash
@@ -44,6 +44,10 @@ roslaunch pepper_nav amcl_restaurant.launch
   // To the Shopping
 roslaunch pepper_nav amcl_square.launch
 ```
+
+Now, open the MATLAB and open the `~/GProxemicNavigation/ProxemicNavigation/GNS.m` 
+
+
 
 <p align="center"><img src="https://raw.githubusercontent.com/maverickjoy/pepper-codes/master/docs/navigation-1.png" width="650"></p>
 
